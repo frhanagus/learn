@@ -25,7 +25,9 @@ if choice == "1":
     price = br_std + wfinal_price + dfinal_price
 elif choice == "2":
     price = br_exp + wfinal_price + dfinal_price
-else : print("Sorry, that option is unavailable")
+else : 
+    print("Sorry, that option is unavailable")
+    quit()
 
 if dfinal_price == (80/100) * dprice :
     print ("You received a 20% discount for a package over 500 miles.")
