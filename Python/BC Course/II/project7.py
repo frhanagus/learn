@@ -1,17 +1,4 @@
-'''
-from datetime import datetime
-
-current_time = datetime.now()
-
-# Access specific parts of the time (optional)
-hour = current_time.hour
-minute = current_time.minute
-second = current_time.second
-
-print(f"Current time (full): {current_time}")  # Outputs current date and time
-print(f"Current time (hour:minute:second): {hour}:{minute}:{second}")
-'''
-#project 7
+#Project 7 : Parking Machine
 
 hh, mm, ss = input("input in time: ").split(" ")
 hh2, mm2, ss2 = input("input out time: ").split(" ")
