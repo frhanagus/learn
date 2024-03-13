@@ -35,3 +35,15 @@ elif user == "keliling" :
     l = float(input("Masukkan lebar persegi panjang: "))
 else : print ("itu tidak ada di pilihan:(")
 '''
+#4 Menentukan luas atau keliling persegi panjang
+user = input("Pilih 'luas' atau 'keliling': ").lower()
+
+if user == "luas" :
+    p = float(input("Masukkan panjang persegi panjang: "))
+    l = float(input("Masukkan lebar persegi panjang: "))
+    print (f'Luas persegi panjang: ', p*l)
+elif user == "keliling" :
+    p = float(input("Masukkan panjang persegi panjang: "))
+    l = float(input("Masukkan lebar persegi panjang: "))
+    print (f'Keliling persegi panjang: ', 2*(p+l))
+else : print ("itu tidak ada di pilihan:(")
