@@ -37,7 +37,7 @@ for turn in range (0,turn) :
         Bot_Score += 1
 
 print ()
-print ('Final Result\n')
+print ('Final Result')
 print ('-'*10)
 print (f'Human =',Human_Score)
 print (f'Bot =',Bot_Score)
